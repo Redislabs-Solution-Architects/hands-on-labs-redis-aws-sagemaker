@@ -11,11 +11,11 @@ So, lets get started.
 01. Each cell highlighted has a python code that will be executed when you press `COMMAND` + `ENTER` on a Mac OR `Cntrl` + `ENTER` on a Window's machine.
 We are going to run this notebook, cell by cell in a sequential manner, after ensuring that the previous step is executed.
 
-![](images/01-SageMaker-model.png)
+![](images/01-sagemaker-model.png)
 
 01. dfdf
 
-![](images/02-SageMaker-model.png)
+![](images/01-sagemaker-model.png))
 
 01. dfdf
 
