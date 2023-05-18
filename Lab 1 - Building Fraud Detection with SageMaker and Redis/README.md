@@ -80,23 +80,23 @@ Click next
 
 13. In the AWS web console, search for `SageMaker` and right click in the results to open `SageMaker` in a new window.
 
-![](images/16-SageMaker.png)
+![](images/16-sagemaker.png)
 
 14. Navigate yourself to `Amazon SageMaker` ==> `Notebook Instances`. Click on the notebook that got provisioned with your CloudFormation template.
 
-![](images/17-SageMaker.png)
+![](images/17-sagemaker.png)
 
 15. Open the Python Jupyter Lab. This will open in a new tab.
 
-![](images/18-SageMaker.png)
+![](images/18-sagemaker.png)
 
 16. Now you have just now launched a Python Jupyter Lab. In the left hand navigation bar, you will see the Jupyter Notebook. Please double click on it to open it.
 
-![](images/19-SageMaker.png)
+![](images/19-sagemaker.png)
 
 17. This opens up Jupyter Notebook in the right hand side main window. Each cell highlighted has a python code that will be executed when you press `COMMAND` + `ENTER` on a Mac OR `Cntrl` + `ENTER` on a Window's machine.
 
-![](images/20-SageMaker.png)
+![](images/20-sagemaker.png)
 
 You are now ready to run the Amazon SageMaker Notebook. You will create the following cloud resources, when you do so:
 
