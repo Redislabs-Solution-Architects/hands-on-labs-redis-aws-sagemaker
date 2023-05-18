@@ -107,7 +107,9 @@ You'll then need to enter the code for the credit and answer the captcha.  With 
 
 ## IAM Permissions Setup
 
-![](images/IAM-1.png)
+<center><img src="images/IAM-1.png" width="261" height="260"></center>
+
+
 If you are bringing your AWS account with Root access, you do not need to setup any additional IAM policies.
 However ever, if you are going to use an IAM user, then you need to set the following privileges for your IAM user.
 * AdministratorAccess
