@@ -1,7 +1,7 @@
 # Lab 0 - Signup for AWS
 To begin, it is essential to have an AWS account.
 
-If you already possess an AWS account, it is possible that you can utilize it. However, certain permissions are required, enabling you to deploy a SageMaker domain and run SageMaker Notebooks. If your current access fulfills these prerequisites, you may proceed to omit the "Signup for AWS" section of this lab.
+If you already possess an AWS account, it is possible that you can utilize it. However, certain permissions are required, enabling you to deploy a SageMaker domain and run SageMaker Notebooks. If your current access fulfills these prerequisites, you may proceed to omit the "Signup for AWS" section of this lab and proceed straight to "IAM Permissions Setup"
 
 ## Feedback
 As you progress through these labs, we highly value your feedback. To assist us in enhancing our offerings, we encourage you to provide your insights by opening an issue using the following link: [here](https://github.com/Redislabs-Solution-Architects/hands-on-labs-redis-aws-sagemaker/issues).
@@ -104,3 +104,19 @@ Once there, click on "Redeem credit."
 You'll then need to enter the code for the credit and answer the captcha.  With that complete, click "Redeem credit."
 
 ![](images/21-redeem.png)
+
+## IAM Permissions Setup
+
+![](images/IAM-1.png)
+If you are bringing your AWS account with Root access, you do not need to setup any additional IAM policies.
+However ever, if you are going to use an IAM user, then you need to set the following privileges for your IAM user.
+* AdministratorAccess
+* AmazonEC2FullAccess
+* AmazonElasticContainerRegistryPublicFullAccess
+* CloudWatchFullAccess
+* IAMUserChangePassword
+* PowerUserAccess
+* AWSCloudFormationFullAccess
+
+Here is how you will add these policies to your IAM user.
+<TBD>
