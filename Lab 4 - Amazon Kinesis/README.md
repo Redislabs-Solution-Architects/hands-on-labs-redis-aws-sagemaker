@@ -78,19 +78,24 @@ An error occurred when creating the trigger: Cannot access stream arn:aws:kinesi
 
 ![](images/11-trigger.png)
 
-12. After adding these two permissions, your `Permission policies` for your lambda role should have these permissions added.
+12. Also, search for `SageMaker` and add `AmazonSageMakerFullAccess` permission
+
+![](images/11a-trigger.png)
+
+
+13. After adding these three permissions, your `Permission policies` for your lambda role should have these permissions added.
 
 ![](images/12-trigger.png)
 
-13. Now go back to your Lambda function and try adding the trigger again, by clicking on the `Add trigger` button.
+14. Now go back to your Lambda function and try adding the trigger again, by clicking on the `Add trigger` button.
 
 ![](images/13-trigger.png)
 
-14. Go ahead and configure Kinesis as the trigger with batch size = `1` and `Latest` as the starting position
+15. Go ahead and configure Kinesis as the trigger with batch size = `1` and `Latest` as the starting position
 
 ![](images/14-trigger.png)
 
-15. If everything goes well, your trigger is configured successfully as shown below.
+16. If everything goes well, your trigger is configured successfully as shown below.
 
 ![](images/15-trigger.png)
 
