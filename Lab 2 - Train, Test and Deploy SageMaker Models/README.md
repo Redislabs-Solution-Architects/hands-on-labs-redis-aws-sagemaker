@@ -1,4 +1,4 @@
-# Test, Train and Deploy SageMaker Models and Endpoints
+# Train, Test and Deploy SageMaker Models and Endpoints
 
 In this lab, you are now ready to run the Amazon SageMaker Notebook. You will create the following cloud resources, when you do so:
 
