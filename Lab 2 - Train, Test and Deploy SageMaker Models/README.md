@@ -27,90 +27,90 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 - `[*]` indicates that the current cell code is being executed (`In Progress` state)
 - `[5]` any number (ex: 5) indicates that the cell has been executed.(`Execution Completed` state)
 
-02. dfdf
+02. Lets start with executing the first cell. This downloads the credit card fraud data set.
 
 ![](images/02-sagemaker-model.png)
 
-03. dfdf
+03. Once this cell executes, you will see the `[1]` indicating the successful run of the code. Also in the left hand navigation bar, you can now see new two files - namely `creditcard.csv` and `creditcardfraud.zip` files being downloaded.
 
 ![](images/03-sagemaker-model.png)
 
-04. dfdf
+04. In this way, you are going to execute all fo the subsequent cells, one by one, in a sequential manner.
 
 ![](images/04-sagemaker-model.png)
 
-05. dfdf
+05. We are going to use `numpy` and `pandas` data frames in our code. Go ahead and execute Cell #2 and #3.
 
 ![](images/05-sagemaker-model.png)
 
-06. dfdf
+06. You are doing great. Keep going. Notice how the output gets printed in the web console of the Jupyter notebook itself.
 
 ![](images/06-sagemaker-model.png)
 
-07. dfdf
+07. Here we are going to split the original data set so that we can use one set for training and another one for testing.
 
 ![](images/07-sagemaker-model.png)
 
-08. dfdf
+08. Lets get started with Unsupervised Learning.
 
 ![](images/08-sagemaker-model.png)
 
-09. dfdf
+09. Keep moving by pressing `COMMAND` + `ENTER` on a Mac OR `Cntrl` + `ENTER` on a Window's machine.
 
 ![](images/09-sagemaker-model.png)
 
-10. dfdf
+10. This code will kick start a new training job. It will run for 5mins or so.
 
 ![](images/10-sagemaker-model.png)
 
-11. dfdf
+11. Navigate yourself to `Amazon SageMaker` > `Training jobs`. Check the training job that is currently running in "InProgress" state.
 
 ![](images/11-sagemaker-model.png)
 
-12. dfdf
+12. You can view the history of the training job here.
 
 ![](images/12-sagemaker-model.png)
 
-13. dfdf
+13. Here you go. History.
 
 ![](images/13-sagemaker-model.png)
 
-14. dfdf
+14. And in the jupyter notebook window you can continue to observe that the code is still executing.
 
 ![](images/14-sagemaker-model.png)
 
 
-15. dfdf
+15. If you toggle back to Amazon SageMaker window, you will see that the Training job is `Completed`
 
 ![](images/15-sagemaker-model.png)
 
 
-16. dfdf
+16. You can also see here that it is `Completed`
 
 ![](images/16-sagemaker-model.png)
 
 
-17. dfdf
+17. Also in the Jupyter notebook,, the `[9]` indicates that the cell executed completly, which means that the training job that you were observing in the AWS Webconsole is `Completed`.
 
 ![](images/17-sagemaker-model.png)
 
 
-18. dfdf
+18. Here are few metrics to observe how much time this training job took.
 
 ![](images/18-sagemaker-model.png)
 
 
-19. dfdf
+19. Lets now deploy the model.
 
 ![](images/19-sagemaker-model.png)
 
 
-20. dfdf
+20. Once executed the endpoints are created.
 
 ![](images/20-sagemaker-model.png)
 
 
-21. dfdf
+21. Lets cross check these endpoints 
 
 ![](images/21-sagemaker-model.png)
 
