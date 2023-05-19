@@ -86,11 +86,16 @@ sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
-13. Install and start Docker.
+13. Install Docker and Docker Compose.
 
 ```
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl start docker
+```
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ```
