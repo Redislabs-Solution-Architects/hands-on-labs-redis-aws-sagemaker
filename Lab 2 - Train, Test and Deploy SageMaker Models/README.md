@@ -110,147 +110,157 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 ![](images/20-sagemaker-model.png)
 
 
-21. Lets cross check these endpoints 
+21. Lets cross check these endpoints
 
 ![](images/21-sagemaker-model.png)
 
 
-22. dfdf
+22. Here you can see that the endpoint configurations are created.
 
 ![](images/22-sagemaker-model.png)
 
 
-23. dfdf
+23. And here you can verify that the endpoints are also created.
 
 ![](images/23-sagemaker-model.png)
 
 
-24. dfdf
+24. When you execute this code, it may give an error, as shown below.
 
 ![](images/24-sagemaker-model.png)
 
 
-25. dfdf
+25. Simply comment out the first line ending with `text/csv` and re-execute the cell. This time, it is erroring out on the ine ending as `application/json`.  Comment out this line too and re-execute.
 
 ![](images/25-sagemaker-model.png)
 
 
-26. dfdf
+26. If you comment out the code as shown , then you shoudl be able to run the cell successfully
 
 ![](images/26-sagemaker-model.png)
 
 
-27. dfdf
+27. Now its time to test our model. Go ahead and run these two cells.
 
 ![](images/27-sagemaker-model.png)
 
-28. dfdf
+28. Continue executing.
 
 ![](images/28-sagemaker-model.png)
 
-29. dfdf
+29. Here is the plotting.
 
 ![](images/29-sagemaker-model.png)
 
-30. dfdf
+30. Now its time to do some Supervised Learning.
 
 ![](images/30-sagemaker-model.png)
 
-31. dfdf
+31. Go ahead and run this code, to setup S3 buckets for training data and output data.
 
 ![](images/31-sagemaker-model.png)
 
-32. dfdf
+32. Contiue executing.
 
 ![](images/32-sagemaker-model.png)
 
-33. dfdf
+33. Keep moving on..
 
 ![](images/33-sagemaker-model.png)
 
-34. dfdf
+34. This will start another training job.
 
 ![](images/34-sagemaker-model.png)
 
-35. dfdf
+35. You can cross verify these training jobs in the `Amazon SageMaker` UI. Here you can notice that the jon is still in `InProgress` state.
 
 ![](images/35-sagemaker-model.png)
 
-36. dfdf
+36. And you can view the entire job history info here.
 
 ![](images/36-sagemaker-model.png)
 
-37. dfdf
+37. And here you go..
 
 ![](images/37-sagemaker-model.png)
 
-38. dfdf
+38. And its still in progress.
 
 ![](images/38-sagemaker-model.png)
 
-39. dfdf
+39. And now its `Completed`
 
 ![](images/39-sagemaker-model.png)
 
-40. dfdf
+40. And the Jupyter notebook reflects the same by indicating the completion of the code in the cell `[18]`
 
 ![](images/30-sagemaker-model.png)
 
-41. dfdf
+41. The first cell in the Host Classifier may run in to errors, like shown here.
 
 ![](images/41-sagemaker-model.png)
 
-42. dfdf
+42. And here is the error.
 
 ![](images/42-sagemaker-model.png)
 
-43. dfdf
+43. Simply comment out the last line and re-execute.
 
 ![](images/43-sagemaker-model.png)
 
-44. dfdf
+44. When you re-execute the code, this time around it successfully executes the code and creates the endpoints
 
 ![](images/44-sagemaker-model.png)
 
-45. dfdf
+45. And they can be cross verified in the UI by going to `Amazon SageMaker` ==> "Endpoint Configuration"
 
 ![](images/45-sagemaker-model.png)
 
-46. dfdf
+46. And similar story here. You have your endpoints in the process of creation.
 
 ![](images/46-sagemaker-model.png)
 
-47. dfdf
+47. And the endpoints are now successfully created.
 
 ![](images/47-sagemaker-model.png)
 
-48. dfdf
+48. And without any surprise, even Jupyter notebook indicates the successful run of the code.
 
 ![](images/48-sagemaker-model.png)
 
-49. dfdf
+49. Keep moving and continue executing the next cell.
 
 ![](images/49-sagemaker-model.png)
 
-50. dfdf
+50. And here is the output.
 
 ![](images/50-sagemaker-model.png)
 
-51. dfdf
+51. You are about to plot a confusion matrix.
 
 ![](images/51-sagemaker-model.png)
 
-52. dfdf
+52. And here is the confusion matrix.
 
 ![](images/52-sagemaker-model.png)
 
-53. dfdf
+53. And the output.
 
 ![](images/53-sagemaker-model.png)
 
-54. dfdf
+54. You do not need to further execute the rest of the cells in this python book. We have enough AWS SageMaker resources that are good enough for us to proceed with the rest of the design of our Fraud detection system.
 
 ![](images/54-sagemaker-model.png)
 
 ### If you have made this far, you are doing a great job. Awesome.
+
+## Conclusion
+
+In this lab, so far you have done the following things.
+
+Using SageMaker, you took a fraud credit card transactions dataset and applied both XGBoost and Anamoly detection algorithms and trained, tested and deployed your model.
+
+In addition, you also published the model endpoints so that real-time inferencing can be done on these machine learning endpoints, in the subsequent labs.
+
+
 See you in the next lab.  [Go back](..)
