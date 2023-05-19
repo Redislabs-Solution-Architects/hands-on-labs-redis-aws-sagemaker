@@ -12,13 +12,7 @@ And here is the Solution Architecture.
 
 ![](images/01-arch-overview.png)
 
-In this lab, we will do all things related to SageMaker. This includes:
-- train
-- test
-- deploy
-machine learning models using Amazon SageMaker.
-
-In addition, we will also publish the model endpoints so that real-time inferencing can be done on these machine learning endpoints.
+We are going to start with provisioning cloud resources needed to do the rest of the labs.
 
 ## Cloud Formation Template
 
@@ -104,4 +98,4 @@ You are now ready to run the Amazon SageMaker Notebook. You will create the foll
 * Deployed Model endpoint configurations and Model endpoints
 * S3 buckets that has the input and output buckets with trained data and results
 
-See you in the next lab.
+See you in the next lab.  [Go back](..)

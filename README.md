@@ -84,4 +84,4 @@ You will also bring your own laptop / desktop with a browser. You will also brin
   * Configure custom dashboards using Terraform
   * Run Data Visualizations
 * [Lab 7 - Cleanup](Lab%207%20-%20Cleanup)
-* [Conclusion and Next Steps]()
+* [Conclusion and Next Steps](https://docs.google.com/presentation/d/1h6GrhdR6_Dt-NP9BEcea5mlGtYE4Atk1QlBvCMu1WCA/edit#slide=id.g1d1930c12ae_1_876)

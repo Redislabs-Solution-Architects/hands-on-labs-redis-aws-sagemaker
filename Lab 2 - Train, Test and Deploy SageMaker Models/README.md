@@ -1,6 +1,15 @@
 # Train, Test and Deploy SageMaker Models and Endpoints
 
-In this lab, you are now ready to run the Amazon SageMaker Notebook. You will create the following cloud resources, when you do so:
+
+In this lab, we will do all things related to SageMaker. This includes:
+- train
+- test
+- deploy
+machine learning models using Amazon SageMaker.
+
+In addition, we will also publish the model endpoints so that real-time inferencing can be done on these machine learning endpoints.
+
+You are now ready to run the Amazon SageMaker Notebook. You will create the following cloud resources, when you run this notebook.:
 
 * Model training jobs for Random Cut Forest & XGBoost algorithms
 * Deployed Model endpoint configurations and Model endpoints
