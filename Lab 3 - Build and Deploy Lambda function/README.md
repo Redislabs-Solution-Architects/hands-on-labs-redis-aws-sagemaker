@@ -286,3 +286,5 @@ In summary, you have accomplished following tasks In this lab :
 * Prepare environment for building a docker container that house a lambda function
 * Build lambda function as a Docker container and upload the docker image to `Elastic Container Registry`
 * Configure the Lambda function using the docker image uploaded in to `Elastic Container Registry`
+
+See you in the next lab.  [Go back](..)

@@ -98,3 +98,5 @@ An error occurred when creating the trigger: Cannot access stream arn:aws:kinesi
 In summary, you have done the following things in this lab:
 * You have configured `Amazon Kinesis Data stream`, to capture the real-time financial transactions from end-users.
 * You have configurde `Amazon Kinesis data stream` to trigger `AWS lambda` function, to invoke fraud detection.
+
+See you in the next lab.  [Go back](..)

@@ -120,5 +120,4 @@ However ever, if you are going to use an IAM user, then you need to set the foll
 * PowerUserAccess
 * AWSCloudFormationFullAccess
 
-Here is how you will add these policies to your IAM user.
-<TBD>
+See you in the next lab.  [Go back](..)

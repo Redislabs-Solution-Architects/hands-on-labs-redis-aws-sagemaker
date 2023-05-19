@@ -290,3 +290,5 @@ In this lab, you have accomplished:
 * Configuring Python Virtual Environment required as a pre-requisite to simulate thousands of transactional events data to our Fraud detection system.
 * Running Fraud Detection data producer to simulate end user transactions.
 * Deep-dived on Lambda function, to understand how the incoming data is fraud detected and the results are persisted in the Redis Enterprise Cloud.
+
+See you in the next lab.  [Go back](..)

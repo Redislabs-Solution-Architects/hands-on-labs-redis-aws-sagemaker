@@ -58,3 +58,5 @@ If you really want to stop AWS billing, close your AWS account.  If you've alrea
 12. dfdd
 
 ![](images/01-labname.png)
+
+You are pretty much done  [Go back](..)

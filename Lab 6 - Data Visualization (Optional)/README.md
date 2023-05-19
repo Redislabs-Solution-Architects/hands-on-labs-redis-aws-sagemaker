@@ -168,3 +168,5 @@ Clean up the Grafana Dashboard containers by running these commands.
 terraform destroy
 docker-compose down
 ```
+
+See you in the next lab.  [Go back](..)

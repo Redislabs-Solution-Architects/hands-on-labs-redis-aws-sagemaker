@@ -251,3 +251,6 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 54. dfdf
 
 ![](images/54-sagemaker-model.png)
+
+### If you have made this far, you are doing a great job. Awesome.
+See you in the next lab.  [Go back](..)
