@@ -157,6 +157,9 @@ If you are unable to access your Grafana Dashboard, you may have to edit your Se
 
 > Make sure your ec2-machine is continuosly emitting user transactions in a seperate SSH terminal window. Otherwise you may see these dashboards empty.
 
+### If you have made this far, congratulate yourself for your perseverance to get through all of these exercises. Great Job indeed.
+
+
 # Clean up Data Visualization components.
 
 Clean up the Grafana Dashboard containers by running these commands.
