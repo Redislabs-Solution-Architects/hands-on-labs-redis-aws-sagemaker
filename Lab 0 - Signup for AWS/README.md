@@ -119,5 +119,7 @@ However ever, if you are going to use an IAM user, then you need to set the foll
 * IAMUserChangePassword
 * PowerUserAccess
 * AWSCloudFormationFullAccess
+* AmazonSageMakerFullAccess
+* AmazonKinesisFullAccess
 
 See you in the next lab.  [Go back](..)
