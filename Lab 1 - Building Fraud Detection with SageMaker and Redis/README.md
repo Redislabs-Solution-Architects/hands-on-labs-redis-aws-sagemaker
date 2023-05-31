@@ -52,6 +52,9 @@ Click next
 
 ![](images/10-create-stack.png)
 
+You may have to acknowledge the following prompt and continue by clikcing `submit` button
+![](images/10b-create-stack.png)
+
 8. CloudFormation stack gets kicked-off with the status = `CREATE_IN_PROGRESS`
 
 ![](images/11-create-stack.png)
