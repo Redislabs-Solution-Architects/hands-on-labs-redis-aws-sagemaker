@@ -82,6 +82,8 @@ Here is how it would look like, if you have logged in successfully.
 12. Lets go ahead and install a few pre-requisite packages. We will start with generic utilities.
 ```
 sudo yum install -y yum-utils
+```
+```
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
@@ -90,11 +92,15 @@ sudo yum-config-manager \
 
 ```
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+```
 sudo systemctl start docker
 ```
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+```
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
@@ -122,6 +128,7 @@ sudo yum install git -y
 sudo yum install wget -y
 sudo yum install -y python3
 sudo yum install unzip -y
+
 ```
 
 15. Lets install AWS CLI.
@@ -162,6 +169,7 @@ Once the access key is created, take a note of them from this screen. You will n
 
 Now feed this information to your `aws configure` tool. Here is a typical example:
 
+> NOTE: Do not execute the following snippet. Its just an example of a typical output.
 ```
 [centos@ip-172-31-9-71 lamdba]$ aws configure
 AWS Access Key ID [None]: AKIAKERWRWQHTGFSFGF
@@ -186,12 +194,15 @@ cd aws-fraud-detection/aws/lamdba
 > At this point of time, please ask your instructor to provide you Redis Enterprise Cloud Database Endpoints that you are going to use for the rest of the labs.
 
 Here is an example `lambda_configs.properties`, once you edit with the correct details.
+> NOTE: Do not execute the following snippet. Its just an example of a typical configuration >file. Not an executing code or script. Also please use the Redis Host, port and Password info provided by your instructor.
+
+
 ```
 [DEMO]
 INSTALL_DIR=/home/centos/aws-fraud-detection
 
 [REDIS]
-REDIS_HOST=redis-11702.internal.c25049.us-west-2-1.ec2.cloud.rlrcp.com
+REDIS_HOST=redis-11702.c25049.us-west-2-1.ec2.cloud.rlrcp.com
 REDIS_PORT=11702
 REDIS_PWD=3qAml8eWZ0WHnHRG0qzhMoeRPlCv17Pw
 ```
