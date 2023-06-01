@@ -1,4 +1,4 @@
-# Lab 1 - Building Fraud Detection using Amazon SageMaker
+# Lab 01 - Building Fraud Detection using Amazon SageMaker
 Are you ready to get into action?
 So, here is what you are going to build.
 

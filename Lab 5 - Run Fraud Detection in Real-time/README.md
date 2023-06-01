@@ -1,4 +1,4 @@
-# Run Fraud Detection in Real-time
+# Lab 05 - Run Fraud Detection in Real-time
 
 In this lab, you are going to :
 * Configure Python Virtual Environment required as a pre-requisite to simulate thousands of transactional events data to our Fraud detection system.
@@ -34,7 +34,8 @@ Example:
 
 3. Now lets install Python dependencies.
 ```
-pip install -r requirements.txt
+pip install --upgrade pip
+pip install -r requirements-centos7.txt
 ```
 
 Here is an example typical output:

@@ -1,4 +1,4 @@
-# Train, Test and Deploy SageMaker Models and Endpoints
+# Lab 02 - Train, Test and Deploy SageMaker Models and Endpoints
 
 
 In this lab, we will do all things related to SageMaker. This includes:

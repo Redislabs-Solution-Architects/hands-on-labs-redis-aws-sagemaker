@@ -1,4 +1,4 @@
-# Amazon Kinesis
+# Lab 04 - Amazon Kinesis
 
 In this lab, you are going to :
 * Configure Amazon Kinesis Data stream, to capture the real-time financial transactions from end-users.

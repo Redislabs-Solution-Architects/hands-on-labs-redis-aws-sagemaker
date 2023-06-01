@@ -1,4 +1,4 @@
-# Cleanup
+# Lab 07 - Cleanup
 
 We deployed a lot of resources in these labs.  Clearly, you want to make sure they don't run up a bill from unused AWS resources.  This lab will help you clean up the resources you provisioned.
 

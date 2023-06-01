@@ -1,4 +1,4 @@
-# Data Visualization (Optional)
+# Lab 06 - Data Visualization (Optional)
 
 In this lab, you are going to :
 * Run Data Visualizations on your Redis Data

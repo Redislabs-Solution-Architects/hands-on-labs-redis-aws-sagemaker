@@ -69,8 +69,12 @@ mv ~/Downloads/aws-redis.pem ~/.ssh/
 chmod 400 ~/.ssh/aws-redis.pem
 ```
 
-15. Invoke SSH session using `ssh` command. Here is an example for a typical public IP address of an ec2 machine.
+15. Invoke SSH session using `ssh` command. Here is an example for a typical public IP address of an ec2 machine. Replace `ec2-server-hostname` with actual hostname.
 
+```
+ssh -i "~/.ssh/aws-redis.pem" centos@<ec2-server-hostname>
+```
+An example:
 ```
 ssh -i "~/.ssh/aws-redis.pem" centos@ec2-35-93-64-166.us-west-2.compute.amazonaws.com
 ```
@@ -189,36 +193,18 @@ git clone https://github.com/Redislabs-Solution-Architects/aws-fraud-detection.g
 ```
 cd aws-fraud-detection/aws/lamdba
 ```
-3. We are going to build a `Docker` container and upload it to the `Elastic Container Registry`. Lets edit `lambda_configs.properties` to reflect your Redis Enterprise Cloud endpoints.
-
-> At this point of time, please ask your instructor to provide you Redis Enterprise Cloud Database Endpoints that you are going to use for the rest of the labs.
-
-Here is an example `lambda_configs.properties`, once you edit with the correct details.
-> NOTE: Do not execute the following snippet. Its just an example of a typical configuration >file. Not an executing code or script. Also please use the Redis Host, port and Password info provided by your instructor.
-
-
-```
-[DEMO]
-INSTALL_DIR=/home/centos/aws-fraud-detection
-
-[REDIS]
-REDIS_HOST=redis-11702.c25049.us-west-2-1.ec2.cloud.rlrcp.com
-REDIS_PORT=11702
-REDIS_PWD=3qAml8eWZ0WHnHRG0qzhMoeRPlCv17Pw
-```
-
-4. Lets create a ECR Repository, by going to `Amazon ECR` ==> `Repositories`.
+3. We are going to build a `Docker` container and upload it to the `Elastic Container Registry`. Lets create a ECR Repository, by going to `Amazon ECR` ==> `Repositories`.
 Click `Create Repository`
 
 ![](images/20-lambda.png)
 
-5. Make it private and give it a name.
+4. Make it private and give it a name.
 
 ![](images/21-lambda.png)
 
 ![](images/22-lambda.png)
 
-6. To push the docker container image to this repository, simply navigate yourself in to `Amazon ECR` ==> `Repositories` ==> aws-redis-lambda. And click on `View Push Commands`.
+5. To push the docker container image to this repository, simply navigate yourself in to `Amazon ECR` ==> `Repositories` ==> aws-redis-lambda. And click on `View Push Commands`.
 
 ![](images/23-lambda.png)
 
@@ -243,7 +229,7 @@ docker tag aws-redis-lambda:latest 016366241477.dkr.ecr.us-west-2.amazonaws.com/
 docker push 016366241477.dkr.ecr.us-west-2.amazonaws.com/aws-redis-lambda:latest
 ```
 
-4. After the container is uploaded in to the `Elastic Container Repository`, you can see the container image as shown below:
+6. After the container is uploaded in to the `Elastic Container Repository`, you can see the container image as shown below:
 ![](images/25-lambda.png)
 
 ## Configure Lambda function using the Docker Image
@@ -289,6 +275,13 @@ Simply expand `Change default execution role` and choose `Create new role with b
 9. If everything goes well, you `lambda` function is successfully configured and ready to be used.
 
 ![](images/35-lambda.png)
+
+10. Its time to point your lambda function to your Redis Database Endpoints.
+Go to `Configuration` ==> `Environment Variables` and hit `Edit` button to add the following 3 variables.
+
+> At this point of time, please ask your instructor to provide you Redis Enterprise Cloud Database Endpoints that you are going to use for the rest of the labs.
+
+![](images/36-lambda.png)
 
 
 ## Conclusion
