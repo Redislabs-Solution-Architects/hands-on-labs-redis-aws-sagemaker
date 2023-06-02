@@ -8,6 +8,7 @@ In this lab, you are going to :
 * Configure Grafana data source pointing to Redis Enterprise Cloud database endpoints.
 * View Data Visualizations real-time on Redis data, as the end-user transactions are live scored using AWS SageMaker ML endpoints.
 
+![](images/WhereAmI-Lab6.png)
 
 In this exercise, you will use Grafana dashboard to visualize the live scoring of the Fraud Detection system.  **Redis Enterprise Cloud** has support for Grafana and it is very easy to build Grafana Dashboards on Redis data.
 

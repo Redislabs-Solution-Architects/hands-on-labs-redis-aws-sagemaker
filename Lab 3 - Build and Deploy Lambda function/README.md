@@ -5,6 +5,7 @@ In this lab, you are going to :
 * Build lambda function as a Docker container and upload the docker image to `Elastic Container Registry`
 * Configure the Lambda function using the docker image uploaded in to `Elastic Container Registry`
 
+![](images/WhereAmI-Lab3.png)
 
 ## Prepare environment
 

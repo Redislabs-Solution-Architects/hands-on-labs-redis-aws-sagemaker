@@ -13,6 +13,9 @@ And here is the Solution Architecture.
 ![](images/01-arch-overview.png)
 
 We are going to start with provisioning cloud resources needed to do the rest of the labs.
+In this lab, you will build the Jupyter Notebooks needed to run SageMaker models.
+
+![](images/WhereAmI-Lab1.png)
 
 ## Cloud Formation Template
 

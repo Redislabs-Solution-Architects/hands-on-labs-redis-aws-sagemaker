@@ -5,6 +5,7 @@ In this lab, you are going to :
 * Run Fraud Detection data producer to simulate end user transactions.
 * Deep-dive on Lambda function, to understand how the incoming data is fraud detected and the results are persisted in the Redis Enterprise Cloud.
 
+![](images/WhereAmI-Lab5.png)
 
 ## Configure Python Virtual Environment
 

@@ -18,7 +18,7 @@ If you are a business in financial markets space, we believe that this hands-on 
 These hands-on workshops are designed for in-person and for virtual experiences.
 
 ## Duration
-3 to 4 hours.
+4 to 5 hours.
 
 ## Prerequisites
 These hands-on labs are very intense from technical experience standpoint (Level 300 to 400). These hands-on labs are targeted for Technical stakeholders like ML engineers, Data scientists, Data Engineers, Application Developers, DevOps, Technical Leads and Architects.  If you are not in any of the above mentioned roles, it would be a disservice for yourself to go any further beyond this point. But if you are one of those most curious souls who do not shy away from getting hands-dirty, we still welcome you to hop on the journey.
