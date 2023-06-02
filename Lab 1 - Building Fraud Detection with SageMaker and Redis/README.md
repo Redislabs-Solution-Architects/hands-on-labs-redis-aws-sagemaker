@@ -105,3 +105,15 @@ You are now ready to run the Amazon SageMaker Notebook. You will create the foll
 * S3 buckets that has the input and output buckets with trained data and results
 
 See you in the next lab.  [Go back](..)
+
+## Quick Note on Redis Enterprise Cloud Deployment
+If you are running this lab as a part of an Immersion Day or a Webinar run by AWS or Redis Inc, you will be provided with the Redis Database endpoints information. Simply ask your Instructor.
+
+If you are running these labs on your own and if you are deploying your own instance of the Redis Enterprise Cloud database, please use the following configurations for the database.
+
+* Database size: 1GB
+* Modules: RedisJSON, RediSearch, RedisTimeseries
+* No HA needed as this is not a production workload.
+* No Replication needed as this is not a production workload.
+
+Make sure to clean up the cloud resources after you are done with these labs.
