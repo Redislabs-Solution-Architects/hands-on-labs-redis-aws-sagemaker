@@ -132,12 +132,12 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 ![](images/24-sagemaker-model.png)
 
 
-25. Simply comment out the first line ending with `text/csv` and re-execute the cell. This time, it is erroring out on the ine ending as `application/json`.  Comment out this line too and re-execute.
+25. Simply comment out the first line ending with `text/csv` and re-execute the cell. This time, it is erroring out on the line ending as `application/json`.  Comment out this line too and re-execute.
 
 ![](images/25-sagemaker-model.png)
 
 
-26. If you comment out the code as shown , then you shoudl be able to run the cell successfully
+26. If you comment out the code as shown , then you should be able to run the cell successfully
 
 ![](images/26-sagemaker-model.png)
 

@@ -18,6 +18,7 @@ In this lab, you are going to :
 ![](images/02-lambda.png)
 
 3. Launch an instance. Give it a name and search for Centos AMIs.
+Search for this AMI: `ami-08c191625cfb7ee61`
 
 ![](images/03-lambda.png)
 
