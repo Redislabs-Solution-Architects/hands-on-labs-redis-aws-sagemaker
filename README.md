@@ -37,15 +37,15 @@ You will also bring your own laptop / desktop with a browser. You will also brin
 
 ### Part 1
 * Introductions
-* [Lecture - Introduction to Redis](https://docs.google.com/presentation/d/1h6GrhdR6_Dt-NP9BEcea5mlGtYE4Atk1QlBvCMu1WCA/edit#slide=id.p1) (15mins)
+* [Lecture - Introduction to Redis](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p1) (15mins)
   *	Introduction to Redis Enterprise Cloud
   * Customer Use Cases
   * Why customers love Redis
-* [Demo - Deploying Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1h6GrhdR6_Dt-NP9BEcea5mlGtYE4Atk1QlBvCMu1WCA/edit#slide=id.g245becdb483_0_0)  (5mins)
+* [Demo - Deploying Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p11)  (5mins)
 * [Lab 0 - Signup for AWS](Lab%200%20-%20Signup%20for%20AWS)
   * Signup
   * Applying Credits
-* [Lecture - Building Real-Time Apps with Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1h6GrhdR6_Dt-NP9BEcea5mlGtYE4Atk1QlBvCMu1WCA/edit#slide=id.g21cf153777b_0_5676) (10mins )
+* [Lecture - Building Real-Time Apps with Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p13) (10mins )
   * Why modern data platform matters?
   * Redis Enterprise Cloud as a modern data platform
   * Why Real-time matters?
@@ -58,7 +58,7 @@ You will also bring your own laptop / desktop with a browser. You will also brin
 
 ### Part 2
 
-* [Lecture - Building Intelligent Apps with Amazon SageMaker](https://docs.google.com/presentation/d/1h6GrhdR6_Dt-NP9BEcea5mlGtYE4Atk1QlBvCMu1WCA/edit#slide=id.g21cf153777b_0_7595)
+* [Lecture - Building Intelligent Apps with Amazon SageMaker](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p21)
   * Amazon SageMaker Intro
   * Amazon SageMaker Benefits
   * Amazon SageMaker Features
