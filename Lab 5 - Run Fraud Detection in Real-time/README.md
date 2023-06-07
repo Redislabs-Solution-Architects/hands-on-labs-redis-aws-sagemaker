@@ -46,37 +46,37 @@ Here is an example typical output:
 /home/centos/aws-fraud-detection
 [centos@ip-172-31-9-71 aws-fraud-detection]$ python3 -m venv aws-fraud-detection.venv
 [centos@ip-172-31-9-71 aws-fraud-detection]$ source aws-fraud-detection.venv/bin/activate
-(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install -r requirements.txt
-Collecting async-timeout==4.0.2 (from -r requirements.txt (line 1))
+(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install -r requirements-centos7.txt
+Collecting async-timeout==4.0.2 (from -r requirements-centos7.txt (line 1))
   Downloading https://files.pythonhosted.org/packages/d6/c1/8991e7c5385b897b8c020cdaad718c5b087a6626d1d11a23e1ea87e325a7/async_timeout-4.0.2-py3-none-any.whl
-Collecting aws-requests-auth==0.4.3 (from -r requirements.txt (line 2))
+Collecting aws-requests-auth==0.4.3 (from -r requirements-centos7.txt (line 2))
   Downloading https://files.pythonhosted.org/packages/af/11/5dc8be418e1d54bed15eaf3a7461797e5ebb9e6a34869ad750561f35fa5b/aws_requests_auth-0.4.3-py2.py3-none-any.whl
-Collecting boto==2.49.0 (from -r requirements.txt (line 3))
+Collecting boto==2.49.0 (from -r requirements-centos7.txt (line 3))
   Downloading https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl (1.4MB)
     100% |████████████████████████████████| 1.4MB 931kB/s
-Collecting boto-utils==0.3 (from -r requirements.txt (line 4))
+Collecting boto-utils==0.3 (from -r requirements-centos7.txt (line 4))
   Downloading https://files.pythonhosted.org/packages/24/e6/8a6b09fc020b85d7e276b8451c6a4f60ff747c73143c8f3bdfe35d9ffb24/boto_utils-0.3.tar.gz
-Collecting boto3==1.21.25 (from -r requirements.txt (line 5))
+Collecting boto3==1.21.25 (from -r requirements-centos7.txt (line 5))
   Downloading https://files.pythonhosted.org/packages/1f/9b/78a23056e6d485c155bb7f327c2f90511003df791254c6843085ff06ce0b/boto3-1.21.25-py3-none-any.whl (132kB)
     100% |████████████████████████████████| 133kB 8.3MB/s
-Collecting botocore==1.24.25 (from -r requirements.txt (line 6))
+Collecting botocore==1.24.25 (from -r requirements-centos7.txt (line 6))
   Downloading https://files.pythonhosted.org/packages/e0/27/23d9260d1b4a5323a73cddee82ed0ecde130c1b576479faa196feed8f51f/botocore-1.24.25-py3-none-any.whl (8.6MB)
     100% |████████████████████████████████| 8.6MB 151kB/s
-Collecting certifi==2022.6.15 (from -r requirements.txt (line 7))
+Collecting certifi==2022.6.15 (from -r requirements-centos7.txt (line 7))
   Downloading https://files.pythonhosted.org/packages/e9/06/d3d367b7af6305b16f0d28ae2aaeb86154fa91f144f036c2d5002a5a202b/certifi-2022.6.15-py3-none-any.whl (160kB)
     100% |████████████████████████████████| 163kB 6.9MB/s
-Collecting charset-normalizer==2.1.0 (from -r requirements.txt (line 8))
+Collecting charset-normalizer==2.1.0 (from -r requirements-centos7.txt (line 8))
   Downloading https://files.pythonhosted.org/packages/94/69/64b11e8c2fb21f08634468caef885112e682b0ebe2908e74d3616eb1c113/charset_normalizer-2.1.0-py3-none-any.whl
-Collecting configparse==0.1.5 (from -r requirements.txt (line 9))
+Collecting configparse==0.1.5 (from -r requirements-centos7.txt (line 9))
   Downloading https://files.pythonhosted.org/packages/5b/ee/0bf6d28248c0cf5b5820405693952f611ce6696b65d289cd1bc1781969f7/configparse-0.1.5-py3-none-any.whl
-Collecting Deprecated==1.2.13 (from -r requirements.txt (line 10))
+Collecting Deprecated==1.2.13 (from -r requirements-centos7.txt (line 10))
   Downloading https://files.pythonhosted.org/packages/51/6a/c3a0408646408f7283b7bc550c30a32cc791181ec4618592eec13e066ce3/Deprecated-1.2.13-py2.py3-none-any.whl
-Collecting idna==3.3 (from -r requirements.txt (line 11))
+Collecting idna==3.3 (from -r requirements-centos7.txt (line 11))
   Downloading https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl (61kB)
     100% |████████████████████████████████| 61kB 9.4MB/s
-Collecting jmespath==1.0.0 (from -r requirements.txt (line 12))
-  Could not find a version that satisfies the requirement jmespath==1.0.0 (from -r requirements.txt (line 12)) (from versions: 0.0.1, 0.0.2, 0.0.3, 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.10.0)
-No matching distribution found for jmespath==1.0.0 (from -r requirements.txt (line 12))
+Collecting jmespath==1.0.0 (from -r requirements-centos7.txt (line 12))
+  Could not find a version that satisfies the requirement jmespath==1.0.0 (from -r requirements-centos7.txt (line 12)) (from versions: 0.0.1, 0.0.2, 0.0.3, 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.10.0)
+No matching distribution found for jmespath==1.0.0 (from -r requirements-centos7.txt (line 12))
 You are using pip version 9.0.3, however version 23.1.2 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 (aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$
@@ -101,13 +101,13 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 Since we have upgraded `pip`, lets re-run `pip install`
 
 ```
-pip install -r requirements.txt
+pip install -r requirements-centos7.txt
 ```
 
 If you encounter pip install errors, resolve them. Example:
 
 ```
-(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install -r requirements.txt
+(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install -r requirements-centos7.txt
 Collecting async-timeout==4.0.2
   Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
 Collecting aws-requests-auth==0.4.3
@@ -134,15 +134,15 @@ Collecting idna==3.3
 ERROR: Could not find a version that satisfies the requirement jmespath==1.0.0 (from versions: 0.0.1, 0.0.2, 0.0.3, 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.10.0)
 ERROR: No matching distribution found for jmespath==1.0.0
 ```
-To resolve above problem, edit `requirements.txt` appropriately.
+To resolve above problem, edit `requirements-centos7.txt` appropriately.
 Example: here you can see that the `jmespath` library version dependency is removed by commenting it out on the first line and added a new line without version number.
 ```
 #jmespath==1.0.0
 jmespath
 ```
-Re-run `pip install -r requirements.txt` until you resolve all of such dependency errors.
+Re-run `pip install -r requirements-centos7.txt` until you resolve all of such dependency errors.
 
-On Centos, you may need to adopt the following `requirements.txt` file with  
+On Centos, you may need to adopt the following `requirements-centos7.txt` file with  
 
 4. Next, we are going to simulate 1000's of transactions as if they are happening in real-time. These transactions will then be fed in to kinesis data stream so that fraud detection by the lambda function gets kicked in, in real-time.
 
