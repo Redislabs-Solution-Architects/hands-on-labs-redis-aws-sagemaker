@@ -164,6 +164,8 @@ Go to `IAM` ==> `Security Credentials`
 
 ![](images/16-lambda.png)
 
+![](images/16-lambda.png)
+
 Go to `Access keys` section and create one.
 
 ![](images/17-lambda.png)
