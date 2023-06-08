@@ -11,8 +11,13 @@ In this lab, you are going to :
 
 ## Configure Python Virtual Environment
 
-1. Invoke SSH session using `ssh` command. Here is an example for a typical public IP address of an ec2 machine.
+1. Invoke SSH session using `ssh` command. Replace `<pem-file>` and `<ec2-server-hostname>`
 
+```
+ssh -i "~/.ssh/<pem-file>" centos@<ec2-server-hostname>
+```
+
+Here is an example for a typical public IP address of an ec2 machine.
 ```
 ssh -i "~/.ssh/aws-redis.pem" centos@ec2-35-93-64-166.us-west-2.compute.amazonaws.com
 ```
@@ -80,71 +85,10 @@ Collecting jmespath==1.0.0 (from -r requirements-centos7.txt (line 12))
   Could not find a version that satisfies the requirement jmespath==1.0.0 (from -r requirements-centos7.txt (line 12)) (from versions: 0.0.1, 0.0.2, 0.0.3, 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.10.0)
 No matching distribution found for jmespath==1.0.0 (from -r requirements-centos7.txt (line 12))
 You are using pip version 9.0.3, however version 23.1.2 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
 (aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$
 
 ```
-If the above output suggests you run `pip install --upgrade pip`, lets do that. Here is a typical output:
-
-```
-(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install --upgrade pip
-Collecting pip
-  Downloading https://files.pythonhosted.org/packages/a4/6d/6463d49a933f547439d6b5b98b46af8742cc03ae83543e4d7688c2420f8b/pip-21.3.1-py3-none-any.whl (1.7MB)
-    100% |████████████████████████████████| 1.7MB 746kB/s
-Installing collected packages: pip
-  Found existing installation: pip 9.0.3
-    Uninstalling pip-9.0.3:
-      Successfully uninstalled pip-9.0.3
-Successfully installed pip-21.3.1
-You are using pip version 21.3.1, however version 23.1.2 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-```
-
-Since we have upgraded `pip`, lets re-run `pip install`
-
-```
-pip install -r requirements-centos7.txt
-```
-
-If you encounter pip install errors, resolve them. Example:
-
-```
-(aws-fraud-detection.venv) [centos@ip-172-31-9-71 aws-fraud-detection]$ pip install -r requirements-centos7.txt
-Collecting async-timeout==4.0.2
-  Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
-Collecting aws-requests-auth==0.4.3
-  Using cached aws_requests_auth-0.4.3-py2.py3-none-any.whl (6.8 kB)
-Collecting boto==2.49.0
-  Using cached boto-2.49.0-py2.py3-none-any.whl (1.4 MB)
-Collecting boto-utils==0.3
-  Using cached boto_utils-0.3.tar.gz (7.0 kB)
-  Preparing metadata (setup.py) ... done
-Collecting boto3==1.21.25
-  Using cached boto3-1.21.25-py3-none-any.whl (132 kB)
-Collecting botocore==1.24.25
-  Using cached botocore-1.24.25-py3-none-any.whl (8.6 MB)
-Collecting certifi==2022.6.15
-  Using cached certifi-2022.6.15-py3-none-any.whl (160 kB)
-Collecting charset-normalizer==2.1.0
-  Using cached charset_normalizer-2.1.0-py3-none-any.whl (39 kB)
-Collecting configparse==0.1.5
-  Using cached configparse-0.1.5-py3-none-any.whl (7.2 kB)
-Collecting Deprecated==1.2.13
-  Using cached Deprecated-1.2.13-py2.py3-none-any.whl (9.6 kB)
-Collecting idna==3.3
-  Using cached idna-3.3-py3-none-any.whl (61 kB)
-ERROR: Could not find a version that satisfies the requirement jmespath==1.0.0 (from versions: 0.0.1, 0.0.2, 0.0.3, 0.1.0, 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.10.0)
-ERROR: No matching distribution found for jmespath==1.0.0
-```
-To resolve above problem, edit `requirements-centos7.txt` appropriately.
-Example: here you can see that the `jmespath` library version dependency is removed by commenting it out on the first line and added a new line without version number.
-```
-#jmespath==1.0.0
-jmespath
-```
-Re-run `pip install -r requirements-centos7.txt` until you resolve all of such dependency errors.
-
-On Centos, you may need to adopt the following `requirements-centos7.txt` file with  
+ 
 
 4. Next, we are going to simulate 1000's of transactions as if they are happening in real-time. These transactions will then be fed in to kinesis data stream so that fraud detection by the lambda function gets kicked in, in real-time.
 
