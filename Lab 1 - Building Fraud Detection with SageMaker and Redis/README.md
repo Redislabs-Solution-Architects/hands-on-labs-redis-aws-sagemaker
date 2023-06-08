@@ -46,6 +46,8 @@ Click next
 ![](images/07-create-stack.png)
 
 5. Give stack a name. Also configure the Amazon S3 bucket names, as shown below.
+> NOTE:S3 Bucket name must be globally unique and must not contain spaces or uppercase letters. Hence, give it a unique name like : lastname-{random-4-digit-number}.
+Example: fowler-3245-model-bucket , fowler-3245-results-bucket
 
 ![](images/08-create-stack.png)
 
