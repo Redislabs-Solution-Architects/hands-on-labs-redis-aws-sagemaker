@@ -55,6 +55,7 @@ sudo yum -y install terraform
 4. Using terraform, we are going to install Redis data source plugin in the Grafana docker container and also setup Grafana dashboards. To do this, run the following commands.
 
 ```
+cd ~/aws-fraud-detection
 cd terraform
 terraform init
 ```
