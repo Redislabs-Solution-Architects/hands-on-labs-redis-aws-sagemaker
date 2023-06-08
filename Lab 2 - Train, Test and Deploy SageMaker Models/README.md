@@ -1,5 +1,5 @@
 # Lab 02 - Train, Test and Deploy SageMaker Models and Endpoints
-
+Duration: 45mins
 
 In this lab, we will do all things related to SageMaker. This includes:
 - train

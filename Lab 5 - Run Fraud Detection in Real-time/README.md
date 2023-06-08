@@ -1,5 +1,7 @@
 # Lab 05 - Run Fraud Detection in Real-time
 
+Duration: 30 mins
+
 In this lab, you are going to :
 * Configure Python Virtual Environment required as a pre-requisite to simulate thousands of transactional events data to our Fraud detection system.
 * Run Fraud Detection data producer to simulate end user transactions.

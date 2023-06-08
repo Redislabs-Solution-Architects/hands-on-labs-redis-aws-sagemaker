@@ -2,6 +2,8 @@
 Are you ready to get into action?
 So, here is what you are going to build.
 
+Duration: 30 mins
+
 ## Architecture Overview
 We are going to build a Real-time Fraud detection system leveraging both Redis and AWS technologies.
 Here is a quick overview of the system.

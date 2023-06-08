@@ -1,5 +1,7 @@
 # Lab 03 - Build and Deploy Lambda function
 
+Duration: 45 mins
+
 In this lab, you are going to :
 * Prepare environment for building a docker container that house a lambda function
 * Build lambda function as a Docker container and upload the docker image to `Elastic Container Registry`

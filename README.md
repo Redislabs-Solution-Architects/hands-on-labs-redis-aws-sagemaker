@@ -37,48 +37,48 @@ You will also bring your own laptop / desktop with a browser. You will also brin
 
 ### Part 1
 * Introductions
-* [Lecture - Introduction to Redis](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p1) (15mins)
+* [Lecture - Introduction to Redis](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p1) (15 mins)
   *	Introduction to Redis Enterprise Cloud
   * Customer Use Cases
   * Why customers love Redis
-* [Demo - Deploying Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p11)  (5mins)
-* [Lab 0 - Signup for AWS](Lab%200%20-%20Signup%20for%20AWS)
+* [Demo - Deploying Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p11)  (5 mins)
+* [Lab 0 - Signup for AWS](Lab%200%20-%20Signup%20for%20AWS) (25 mins)
   * Signup
   * Applying Credits
-* [Lecture - Building Real-Time Apps with Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p13) (10mins )
+* [Lecture - Building Real-Time Apps with Redis Enterprise Cloud on AWS](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p13) (15mins )
   * Why modern data platform matters?
   * Redis Enterprise Cloud as a modern data platform
   * Why Real-time matters?
   * Redis for Real-time ML Database
   * What makes an App Real-time and Intelligent?
-* [Lab 1 - Building Fraud Detection with SageMaker and Redis](Lab%201%20-%20Building%20Fraud%20Detection%20with%20SageMaker%20and%20Redis)
+* [Lab 1 - Building Fraud Detection with SageMaker and Redis](Lab%201%20-%20Building%20Fraud%20Detection%20with%20SageMaker%20and%20Redis) (30 mins)
   * Architecture overview
   * Provision Cloud Resources
   * Review Amazon SageMaker Jupyter Notebook
 
 ### Part 2
 
-* [Lecture - Building Intelligent Apps with Amazon SageMaker](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p21)
+* [Lecture - Building Intelligent Apps with Amazon SageMaker](https://docs.google.com/presentation/d/1-2aRQEQQ0LS97OGv2D_nIaoJK2w1-2XY/edit#slide=id.p21) (15 mins)
   * Amazon SageMaker Intro
   * Amazon SageMaker Benefits
   * Amazon SageMaker Features
-* [Lab 2 - Train, Test and Deploy SageMaker Models and Endpoints](Lab%202%20-%20Train,%20Test%20and%20Deploy%20SageMaker%20Models)
+* [Lab 2 - Train, Test and Deploy SageMaker Models and Endpoints](Lab%202%20-%20Train,%20Test%20and%20Deploy%20SageMaker%20Models) (45 mins)
   * Model training jobs for Random Cut Forest & XGBoost algorithms
   * Deployed Model endpoint configurations and Model endpoints
-* [Lab 3 - Build and Deploy Lambda function](Lab%203%20-%20Build%20and%20Deploy%20Lambda%20function)
+* [Lab 3 - Build and Deploy Lambda function](Lab%203%20-%20Build%20and%20Deploy%20Lambda%20function) (45 mins)
   * Build Lambda function as a Docker container
   * Configure Lambda function
-* [Lab 4 - Amazon Kinesis](Lab%204%20-%20Amazon%20Kinesis)
+* [Lab 4 - Amazon Kinesis](Lab%204%20-%20Amazon%20Kinesis) (30 mins)
   *	Configure Amazon Kinesis Data stream
   * Configure Amazon Kinesis data stream to trigger AWS lambda function, to invoke fraud detection.
 
 ### Part 3
 
-* [Lab 5 - Run Fraud Detection in Real-time](Lab%205%20-%20Run%20Fraud%20Detection%20in%20Real-time)
+* [Lab 5 - Run Fraud Detection in Real-time](Lab%205%20-%20Run%20Fraud%20Detection%20in%20Real-time) (30 mins)
   * Simulate transactional events
   * Run Fraud detection
   * Lambda Deepdive
-* [Lab 6 - Data Visualization (Optional)](Lab%206%20-%20Data%20Visualization%20(Optional))
+* [Lab 6 - Data Visualization (Optional)](Lab%206%20-%20Data%20Visualization%20(Optional)) (30 mins)
   * Run Data Visualizations on your Redis Data
   * Configure Grafana and Terraform
   * Configure custom dashboards using Terraform

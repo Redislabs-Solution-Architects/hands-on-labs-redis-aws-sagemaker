@@ -1,4 +1,7 @@
 # Lab 0 - Signup for AWS
+
+Duration: 25 mins
+
 To begin, it is essential to have an AWS account.
 
 If you already possess an AWS account, it is possible that you can utilize it. However, certain permissions are required, enabling you to deploy a SageMaker domain and run SageMaker Notebooks. If your current access fulfills these prerequisites, you may proceed to omit the "Signup for AWS" section of this lab and proceed straight to "IAM Permissions Setup"

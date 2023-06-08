@@ -1,5 +1,7 @@
 # Lab 04 - Amazon Kinesis
 
+Duration: 30 mins
+
 In this lab, you are going to :
 * Configure Amazon Kinesis Data stream, to capture the real-time financial transactions from end-users.
 * Configure Amazon Kinesis data stream to trigger AWS lambda function, to invoke fraud detection.

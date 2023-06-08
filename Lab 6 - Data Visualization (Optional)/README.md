@@ -1,5 +1,7 @@
 # Lab 06 - Data Visualization (Optional)
 
+Duration: 30 mins
+
 In this lab, you are going to :
 * Run Data Visualizations on your Redis Data
 * Configure Grafana via Docker containers using Docker-compose
