@@ -162,7 +162,7 @@ You can get your `AWS Access Key ID` and `AWS Secret Access Key` from the AWS We
 
 Go to `IAM` ==> `Security Credentials`
 
-![](images/16-lambda.png)
+![](images/16a-lambda.png)
 
 ![](images/16-lambda.png)
 
