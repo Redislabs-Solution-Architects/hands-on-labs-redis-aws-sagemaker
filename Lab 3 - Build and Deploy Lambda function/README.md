@@ -88,7 +88,7 @@ Here is how it would look like, if you have logged in successfully.
 ![](images/15-lambda.png)
 
 
-12. Lets go ahead and install a few pre-requisite packages. We will start with generic utilities.
+16. Lets go ahead and install a few pre-requisite packages. We will start with generic utilities.
 ```
 sudo yum install -y yum-utils
 ```
@@ -97,7 +97,7 @@ sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
-13. Install Docker and Docker Compose.
+17. Install Docker and Docker Compose.
 
 ```
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
@@ -130,7 +130,7 @@ Once you logged in, start Docker service.
 sudo systemctl start docker
 ```
 
-14. Install Git, wget, python
+18. Install Git, wget, python
 
 ```
 sudo yum install git -y
@@ -140,7 +140,7 @@ sudo yum install unzip -y
 
 ```
 
-15. Lets install AWS CLI.
+19. Lets install AWS CLI.
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
@@ -148,7 +148,7 @@ sudo ./aws/install
 aws --version
 ```
 
-16. Lets configure your AWS CLI.
+20. Lets configure your AWS CLI.
 ```
 aws configure
 ```
