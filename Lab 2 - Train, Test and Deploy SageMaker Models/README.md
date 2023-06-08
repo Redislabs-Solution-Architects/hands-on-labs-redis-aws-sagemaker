@@ -19,6 +19,31 @@ You are now ready to run the Amazon SageMaker Notebook. You will create the foll
 
 So, lets get started.
 
+00. IMPORTANT Preparatory Step. Its always important to ensure correct `SageMaker` libraries are being used. To do this. We will insert the following line in the first cell, right after `unzip` command.
+
+Line to be inserted:
+```
+pip install sagemaker==1.72.0 -U
+```
+
+In other words, before the change, the code in the first cell looks like this:
+```
+%%bash
+wget https://s3-us-west-2.amazonaws.com/sagemaker-e2e-solutions/fraud-detection/creditcardfraud.zip
+unzip creditcardfraud.zip
+```
+After the change, it should look like this:
+```
+%%bash
+wget https://s3-us-west-2.amazonaws.com/sagemaker-e2e-solutions/fraud-detection/creditcardfraud.zip
+unzip creditcardfraud.zip
+pip install sagemaker==1.72.0 -U
+```
+
+Also ensure that the `conda_python3` environment is selected.
+![](images/00-sagemaker-model.png)
+
+
 01. Each cell highlighted has a python code that will be executed when you press `COMMAND` + `ENTER` on a Mac OR `Cntrl` + `ENTER` on a Window's machine.
 We are going to run this notebook, cell by cell in a sequential manner, after ensuring that the previous step is executed.
 
@@ -37,7 +62,15 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 
 ![](images/03-sagemaker-model.png)
 
-04. In this way, you are going to execute all fo the subsequent cells, one by one, in a sequential manner.
+Before you execute further steps, let us re-start the Kernel by clicking on this button shown below. This will ensure that the right `Sagemaker` libraries are used.
+
+![](images/04a-sagemaker-model.png)
+
+![](images/04b-sagemaker-model.png)
+
+After the shell is restarted, you can further proceed. However, please skip the first cell and proceed further.
+
+04. In this way, you are going to execute all of the subsequent cells, one by one, in a sequential manner.
 
 ![](images/04-sagemaker-model.png)
 
@@ -128,16 +161,17 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 
 
 24. When you execute this code, it may give an error, as shown below.
+NOTE: If it does not give any error, simply execute and move forward.
 
 ![](images/24-sagemaker-model.png)
 
 
-25. Simply comment out the first line ending with `text/csv` and re-execute the cell. This time, it is erroring out on the line ending as `application/json`.  Comment out this line too and re-execute.
+25. IGNORE this if you have no error mentioned above:  Simply comment out the first line ending with `text/csv` and re-execute the cell. This time, it is erroring out on the line ending as `application/json`.  Comment out this line too and re-execute.
 
 ![](images/25-sagemaker-model.png)
 
 
-26. If you comment out the code as shown , then you should be able to run the cell successfully
+26. IGNORE this if you have no error mentioned above: If you comment out the code as shown , then you should be able to run the cell successfully
 
 ![](images/26-sagemaker-model.png)
 
@@ -199,18 +233,19 @@ To understand if a specific cell has been executed or not, please notice the `[ 
 ![](images/30-sagemaker-model.png)
 
 41. The first cell in the Host Classifier may run in to errors, like shown here.
+NOTE: If it does not give any error, simply execute and move forward.
 
 ![](images/41-sagemaker-model.png)
 
-42. And here is the error.
+42. IGNORE this if you have no error mentioned above: And here is the error.
 
 ![](images/42-sagemaker-model.png)
 
-43. Simply comment out the last line and re-execute.
+43. IGNORE this if you have no error mentioned above: Simply comment out the last line and re-execute.
 
 ![](images/43-sagemaker-model.png)
 
-44. When you re-execute the code, this time around it successfully executes the code and creates the endpoints
+44. When you execute tis code, it successfully executes the code and creates the endpoints
 
 ![](images/44-sagemaker-model.png)
 
